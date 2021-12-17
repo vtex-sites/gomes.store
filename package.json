@@ -16,7 +16,8 @@
     "gatsby-plugin-netlify": "^2.3.17",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "react": "^0.0.0-experimental-7f28234f8",
-    "react-dom": "^0.0.0-experimental-7f28234f8"
+    "react-dom": "^0.0.0-experimental-7f28234f8",
+    "requests": "^0.3.0"
   },
   "devDependencies": {
     "@vtex/lighthouse-config": "^0.221.0",
