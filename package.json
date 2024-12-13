@@ -22,9 +22,11 @@
     "@vtex/lighthouse-config": "^0.221.0",
     "@vtex/prettier-config": "^0.3.5",
     "@vtex/tsconfig": "^0.5.5",
+    "cypress": "^6.2.1",
     "eslint": "^7.14.0",
     "eslint-config-vtex-react": "^6.8.3",
     "prettier": "^2.2.0",
+    "start-server-and-test": "^1.11.7",
     "typescript": "^3.9.5"
   },
   "resolutions": {
@@ -41,6 +43,8 @@
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{ts,js,tsx,jsx,json}\"",
     "lint": "eslint --ext js,ts,jsx,tsx .",
-    "test:lhci": "lhci autorun"
+    "test:lhci": "lhci autorun",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
+    "cy:open": "cypress open"
   }
 }
