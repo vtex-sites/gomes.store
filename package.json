@@ -9,6 +9,7 @@
     "@vtex/gatsby-source-vtex": "^0.228.0",
     "@vtex/gatsby-theme-store": "^0.228.0",
     "@vtex/store-ui": "^0.228.0",
+    "axios": "^0.24.0",
     "babel-preset-gatsby": "^0.5.5",
     "dotenv": "^8.2.0",
     "gatsby": "^2.30.1",
